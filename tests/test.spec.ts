@@ -8,5 +8,5 @@ test('has title', async ({ page }) => {
    await page.locator('#WeiterButton').click();
    await page.locator('#OKButton').click();
  await page.locator('#WeiterButton').click();
-  await expect( page.getByText('Kein freier Termin verfügbar')).toBeVisible();
+  await expect( page.getByText('Kein freier Termi verfügbar')).toBeVisible();
 });
