@@ -39,5 +39,5 @@ jobs:
         uses: actions/upload-artifact@v4
         if: always() # Ensures this runs even if the previous step failed
         with:
-        name: playwright-screenshots # You can name this whatever you like
-        path: test-results/**/*.png
+          name: playwright-screenshots # You can name this whatever you like
+          path: test-results/**/*.png
